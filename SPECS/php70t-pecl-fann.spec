@@ -12,7 +12,7 @@
 Summary: Wrapper for FANN (Fast Artificial Neural Network) Library
 Name: %{php_base}-pecl-%{pecl_name}
 Version: 1.0.7
-Release: 1.vortex%{?dist}
+Release: 2.vortex%{?dist}
 License: PHP
 Group: Development/Languages
 Vendor: Vortex RPM
@@ -89,5 +89,8 @@ fi
 
 
 %changelog
+* Wed Jan 13 2016 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.0.7-2.vortex
+- Let's try "next" git branch.
+
 * Tue Aug 04 2015 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 1.0.7-1.vortex
 - Initial packaging.
